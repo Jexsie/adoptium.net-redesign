@@ -8,8 +8,6 @@ import Seo from "../components/Seo"
 // @ts-ignore
 import HeroBgImg from "../images/backgrounds/aqavit-hero-bg.svg"
 
-import LogoCarousel from "../components/LogoCarousel"
-
 const AQAvit = () => {
   return (
     <Layout>
@@ -23,24 +21,11 @@ const AQAvit = () => {
             aria-hidden="true"
           ></div>
           <div className="max-w-[1264px] mx-auto flex justify-center items-center">
-            <div className="mx-auto max-w-[832px] w-full h-[680px] sm:h-[720px] px-8 lg:px-0 flex items-center">
+            <div className="mx-auto max-w-[832px] w-full h-[680px] sm:h-[670px] px-8 lg:px-0 flex flex-col justify-center items-center">
               <div className="text-center w-full">
                 <h1 className="font-semibold leading-[72px] lg:leading-[120px] text-white-900 text-[64px] lg:text-[104px]">
                   Eclipse AQAvit™
                 </h1>
-                <p className="lg:my-10 mt-6  mb-10 md:text-2xl text-base text-white-600 leading-[25px] md:leading-8 font-semibold">
-                  Eclipse AQAvit (TM): Eclipse AQAvit is the quality and runtime
-                  branding evaluation project for Java SE runtimes and
-                  associated technology. During a release, it takes a
-                  functionally complete Java runtime and ensures that all the
-                  additional qualities are present that make it suitable for
-                  production use. These quality criteria include good
-                  performance, exceptional security, resilience and endurance,
-                  and the ability to pass a wide variety of application test
-                  suites. In addition to verifying that functionally complete
-                  runtimes are release ready, the AQA tests may also serve to
-                  verify new functionality during runtime development.
-                </p>
                 <div className="mt-10 flex items-center sm:flex-row flex-col-reverse justify-center gap-6">
                   <a
                     target="_blank"
@@ -63,12 +48,24 @@ const AQAvit = () => {
         </div>
       </div>
       <div>
+        <p className="mx-auto max-w-[896px] md:text-lg text-center md:text-left p-4 lg:p-0 text-base text-white-600 leading-[25px] md:leading-8">
+          Eclipse AQAvit (TM): Eclipse AQAvit is the quality and runtime
+          branding evaluation project for Java SE runtimes and associated
+          technology. During a release, it takes a functionally complete Java
+          runtime and ensures that all the additional qualities are present that
+          make it suitable for production use. These quality criteria include
+          good performance, exceptional security, resilience and endurance, and
+          the ability to pass a wide variety of application test suites. In
+          addition to verifying that functionally complete runtimes are release
+          ready, the AQA tests may also serve to verify new functionality during
+          runtime development.
+        </p>
         <div className="flex flex-col justify-center items-center text-center md:text-left p-4">
-          <div className="max-w-[700px]">
-            <h2 className="text-3xl font-bold mb-4 mt-20 text-center">
+          <div className="max-w-[896px]">
+            <h2 className="text-3xl font-bold mb-8 mt-14 text-center md:text-left">
               The AQAvit Name
             </h2>
-            <p className="text-base md:text-lg mb-8">
+            <p className="text-base md:text-lg">
               The AQAvit Name The AQAvit project gets its name from Adoptium
               Quality Assurance 'AQA' and 'vit' for vitality and speed. As the
               project engages with vendors and enterprise consumers, the test
@@ -77,11 +74,11 @@ const AQAvit = () => {
               collaboration and rigour.
             </p>
           </div>
-          <div className="max-w-[700px]">
-            <h2 className="text-3xl font-bold mb-8 text-center">
+          <div className="max-w-[896px]">
+            <h2 className="text-3xl font-bold mb-8 mt-14 text-center md:text-left">
               AQAvit Project Central
             </h2>
-            <p className="text-base md:text-lgmb-8">
+            <p className="text-base md:text-lg">
               AQAvit Project Central As listed in the Developer Resources
               section of the Eclipse Foundation AQAvit project page, AQAvit is
               comprised of many repositories. The central one is the aqa-tests
@@ -92,8 +89,8 @@ const AQAvit = () => {
               the #testing-aqavit channel.
             </p>
           </div>
-          <div className="max-w-[700px]">
-            <h2 className="text-3xl font-bold mb-8 text-center">
+          <div className="max-w-[896px]">
+            <h2 className="text-3xl font-bold mb-8 mt-14 text-center md:text-left">
               AQAvit Verification
             </h2>
             <p className="text-base md:text-lg mb-4">
